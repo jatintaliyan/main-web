@@ -1,0 +1,69 @@
+.accordian{
+    
+    box-shadow: 0,0,10px black;
+    
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    
+
+    
+
+}
+
+.accordian__lable,
+.accordian__content{
+     padding: 3px 3px;
+     
+    }
+     
+
+.accordian__lable{
+    
+   
+    width: 80%;
+    margin: auto;
+    display: block;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+    
+}
+
+.accordian__content{
+    width: 75%;
+    height: 105px;
+    border-radius: 3px;
+    
+    margin: auto;
+    background: #737069;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+    text-align: center;
+}
+.accordian__input {
+    display: none;
+}
+.accordian__input:checked ~ .accordian__content {
+    display:block;
+}
+
+table,td,th{
+    padding: 5px;
+    padding-left: 33.5px;
+    padding-right: 33.5px;
+
+    border: 1px solid rgb(72, 71, 71);
+    border-collapse: collapse;
+}
+.sgpatable{
+    
+    height: 100.5px;
+    width: 235.3px;
+    margin: auto;
+}
