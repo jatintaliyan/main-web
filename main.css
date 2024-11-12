@@ -67,3 +67,18 @@ table,td,th{
     width: 235.3px;
     margin: auto;
 }
+.unheader{
+    
+        /* background-color: rgb(121, 85, 85);*/
+        /* background-color: #207F5F; */
+        background-color: #d9d7cb;
+
+        height: 95px;
+
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+}
